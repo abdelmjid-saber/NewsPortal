@@ -1,0 +1,14 @@
+.active {
+    color: #6D28D9;
+}
+
+.grid-custom {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 990px) {
+    .grid-custom {
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+    }
+}
+
